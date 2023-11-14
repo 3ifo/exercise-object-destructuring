@@ -64,7 +64,55 @@ console.log(nome, eta); */
 
 //Esercizio 6 Scrivi una funzione `presentati` che prende un oggetto con le proprietà `nome` e `occupazione` e registra un messaggio nella console. //
 
-const presentati = ({ nome, occupazione }) => {
+/*const presentati = ({ nome, occupazione }) => {
   console.log(`nome ${nome}, occupazione ${occupazione}`);
 };
-presentati({ nome: "giovanni", occupazione: "programmatore" });
+presentati({ nome: "giovanni", occupazione: "programmatore" });*/
+
+const libri = [
+  {
+    title: "Il Grande Gatsby",
+    author: {
+      firstName: "F. Scott",
+      lastName: "Fitzgerald",
+    },
+    details: {
+      pages: 180,
+      language: "Inglese",
+    },
+  },
+  {
+    title: "Guerra e Pace",
+    author: {
+      firstName: "Lev",
+      lastName: "Tolstoj",
+    },
+    details: {
+      pages: 1225,
+      language: "Russo",
+    },
+  },
+  {
+    title: "1984",
+    author: {
+      firstName: "George",
+      lastName: "Orwell",
+    },
+    details: {
+      pages: 328,
+      language: "Inglese",
+    },
+  },
+];
+
+for (let i = 0; i < libri.length; i++) {
+  const libro = libri[i];
+  const {
+    title,
+    author: { firstName, lastName },
+    details: { pages },
+  } = libri[i];
+  if (pages > 300) {
+    console.log({ libri });
+  }
+}

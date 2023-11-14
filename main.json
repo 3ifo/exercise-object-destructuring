@@ -1,1 +1,35 @@
-{ "id": 1, "nome": "John Doe", "email": "john.doe@example.com" }
+[
+  {
+    "title": "Il Grande Gatsby",
+    "author": {
+      "firstName": "F. Scott",
+      "lastName": "Fitzgerald"
+    },
+    "details": {
+      "pages": 180,
+      "language": "Inglese"
+    }
+  },
+  {
+    "title": "Guerra e Pace",
+    "author": {
+      "firstName": "Lev",
+      "lastName": "Tolstoj"
+    },
+    "details": {
+      "pages": 1225,
+      "language": "Russo"
+    }
+  },
+  {
+    "title": "1984",
+    "author": {
+      "firstName": "George",
+      "lastName": "Orwell"
+    },
+    "details": {
+      "pages": 328,
+      "language": "Inglese"
+    }
+  }
+]
