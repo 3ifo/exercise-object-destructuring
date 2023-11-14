@@ -1,0 +1,58 @@
+### Esercizio 1: Sintassi JSON
+
+Dato il seguente oggetto in JavaScript, convertilo in una stringa JSON.
+
+const utente = {
+    nome: "Alice",
+    eta: 25,
+    hobby: ["leggere", "giocare ai videogiochi", "fare escursioni"],
+    indirizzo: {
+        via: "123 Via degli Aceri",
+        citta: "Paese delle Meraviglie"
+    }
+};
+
+### Esercizio 2: Analisi di JSON
+
+Converti la seguente stringa JSON in un oggetto JavaScript e registra l'`email` e l'`id` nella console.
+
+'{"id": 1, "nome": "John Doe", "email": "john.doe@example.com"}'
+
+### Esercizio 3: Distrutturazione di Base degli Oggetti
+
+Utilizza la distrutturazione degli oggetti per estrarre il `titolo` e l'`anno` dal seguente oggetto e registrarli nella console.
+
+const film = {
+    titolo: "Inception",
+    regista: "Christopher Nolan",
+    anno: 2010,
+    valutazione: 8.8
+};
+
+### Esercizio 4: Distrutturazione di Oggetti Annidati
+
+Utilizza la distrutturazione degli oggetti per estrarre la `via` e la `citta` dall'oggetto `indirizzo` all'interno dell'oggetto `utente`.
+
+const utente = {
+    nome: "Alice",
+    indirizzo: {
+        via: "123 Via degli Aceri",
+        citta: "Paese delle Meraviglie"
+    }
+};
+
+### Esercizio 5: Valori Predefiniti nella Distrutturazione
+
+Utilizza la distrutturazione degli oggetti per estrarre il `nome` e l'`eta` dall'oggetto `persona`. Se l'`eta` non è fornita, dovrebbe avere un valore predefinito di `30`.
+
+const persona = {
+    nome: "Bob"
+};
+### Esercizio 6: Distrutturazione dei Parametri delle Funzioni
+
+Scrivi una funzione `presentati` che prende un oggetto con le proprietà `nome` e `occupazione` e registra un messaggio nella console.
+
+const persona = {
+    nome: "Jane",
+    occupazione: "sviluppatrice"
+};
